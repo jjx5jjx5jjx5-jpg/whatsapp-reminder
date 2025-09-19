@@ -29,7 +29,7 @@ MESSAGE = random.choice(MESSAGES)
 # Only send messages between 07:30 and 22:00
 now = datetime.now()
 current_time = now.hour + now.minute / 60  # decimal hour
-if not (7.5 <= current_time <= 22):
+if not (0 <= current_time <= 22):
     print("🕒 Outside allowed time window. Skipping message.")
     sys.exit(0)
 
