@@ -35,16 +35,6 @@ if not (7.5 <= current_time <= 22):
     print("🕒 Outside allowed time window. Skipping.")
     sys.exit(0)
 
-# Random interval logic:
-# Every run (hourly), decide whether to send.
-# Probability ~25% = avg every 4h, up to 100% = every run.
-# You can tune this.
-send_probability = 0.3  # ~30% chance per hour ≈ 1–4h spacing
-
-if random.random() > send_probability:
-    print("🎲 Random choice: Not sending this hour.")
-    sys.exit(0)
-
 # Choose random message
 MESSAGE = random.choice(MESSAGES)
 
