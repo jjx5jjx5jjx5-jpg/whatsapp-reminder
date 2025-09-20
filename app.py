@@ -31,7 +31,7 @@ MESSAGES = [
 # Time window: only send between 07:30–22:00
 now = datetime.now()
 current_time = now.hour + now.minute / 60
-if not (7.5 <= current_time <= 22):
+if not (6.5 <= current_time <= 21):
     print("🕒 Outside allowed time window. Skipping.")
     sys.exit(0)
 
