@@ -20,13 +20,14 @@ MESSAGES = [
     "gulps. hes behind me isnt he.",
     "think fast! water time1!",
     "you are so hydrated. no need to drink water",
-    "My name is Lewis Warren and on the 14th June 2005..."
-    "Hi Yas, it's me the god of water, Poseidon. you know what time it is"
-    "Why did the glass of water cross the road?"
-    "I think I'm getting shorter, I know you oughta, drink some water."
-    "mii need a pepsi max"
+    "My name is Lewis Warren and on the 14th June 2005...",
+    "Hi Yas, it's me the god of water, Poseidon. you know what time it is",
+    "Why did the glass of water cross the road?",
+    "I think I'm getting shorter, I know you oughta, drink some water.",
+    "mii need a pepsi max",
     "it's 5 o clock somewhere. beer time!"
 ]
+
 
 # Time window: only send between 07:30–22:00
 now = datetime.now()
